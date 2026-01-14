@@ -34,7 +34,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 70px;
@@ -59,7 +59,7 @@ nav ul a{
 #banner
 {
     text-align: center;
-    max-width: 1220px;
+    max-width: 1440px;
     margin: 0px auto;
     
 }
@@ -86,7 +86,7 @@ nav ul a{
     padding-bottom: 45px;
 }
 #features-section{
-    max-width: 1200px;
+    max-width: 1400px;
     margin:85px auto;
     display: flex;
     justify-content: center;
@@ -119,4 +119,73 @@ nav ul a{
 .features-color{
     font-weight: bold;
     color:#FF900E;
+}
+#love-enjoy{
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+    justify-content: space-between;
+    
+   
+}
+#love-enjoy img {
+    width: 100%;
+}
+
+
+.text-container {
+    width:586px;
+
+}
+.text-container h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+.text-container p{
+    font-size: 1rem;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.card{
+    width: 586px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px 36px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.card h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 1rem;
+    color: #727272;
+    line-height: 26px;
+}
+
+.experience-button{
+    padding: 46px 42px;
+    background-color: #FF900E;
+    width: 342px;
+    text-align: center;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-left: -92px;
+    margin-top: -77px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.experience-title{
+    font-size:4rem ;
+    font-weight: bold;
+    line-height: 70px;
 }
