@@ -321,12 +321,22 @@ footer{
         margin: 100px auto;
         padding:0px 20px;
         justify-items: center;
+        text-align: center;
     }
     .fact-cards{ 
         grid-template-columns: repeat(1,300px);  
         gap:50px;
         margin-bottom: 100px;
         
+    }
+    #sponspors p{
+        padding: 0px 20px;
+    }
+
+    .sponspors-logo{
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    margin-bottom: 80px;
     }
 
 }
