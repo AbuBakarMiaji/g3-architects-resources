@@ -341,7 +341,67 @@ footer{
 
 }
 
-@media screen and (min-width:576.1px) and (max-width:992){
+@media screen and (min-width:576px) and (max-width:992px){
+    nav{
+    /* flex-direction: column; */
+    margin: 0px 20px;
+    text-align: center;
+    }
+
+    #banner p , img{
+    padding: 10px 10px;
+    }
+    #features-section{
+        flex-direction: column-reverse;
+         margin:20px auto;
+    }
+    .feature-img{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .features-text{
+    margin: 20px 20px;
+    text-align: center;
+    }
+    #love-enjoy{
+    flex-direction: column;   
+    }
+    .text-container, .card{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .experience-button{
+        padding: 20px 20px;
+        margin: 10px 20px;
+        width: 350px;
+        font-size: 1rem;
+    }
     
+    .experience-title{
+        font-size:2.5rem ;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    #factor-section{
+        max-width: 1440px;
+        margin: 100px auto;
+        padding:0px 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    .fact-cards{ 
+        grid-template-columns: repeat(1,300px);  
+        gap:50px;
+        margin-bottom: 100px;
+        
+    }
+    #sponspors p{
+        padding: 0px 20px;
+    }
+
+    .sponspors-logo{
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    margin-bottom: 80px;
+    }
 
 }
