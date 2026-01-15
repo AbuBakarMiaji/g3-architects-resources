@@ -36,8 +36,7 @@ nav{
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding: 50px 10px 70px;
 }
 
 nav h3{
@@ -191,6 +190,7 @@ nav ul a{
 #factor-section{
     max-width: 1440px;
     margin: 130px auto;
+    padding: 0px 10px;
     
 }
 #factor-section h3{
@@ -210,7 +210,7 @@ nav ul a{
     display: grid;  
     grid-template-columns: repeat(4,1fr);  
     text-align: center;
-    gap:124px;
+    gap:5rem;
     margin-bottom: 100px;
 }
 .fact-card{
